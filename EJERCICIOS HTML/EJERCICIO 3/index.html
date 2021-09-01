@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <title>Ejercicio HTML 1</title>
+</head>
+
+<body>
+
+  <div class="clase1">
+
+    <form class="clase2" action="" method="get">
+
+      <fieldset id="camposet">
+
+        <label for="nombre">Nombre
+          <input class="clase3" type="text" name="name_control" autofocus required />
+        </label>
+
+        <label for="correoelectronico">Corre electronico
+          <input class="clase3" type="email" name="email_control" required />
+        </label>
+
+        <label for="URL">URL
+          URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web personal" />
+        </label>
+
+        <label for="fecha">Fecha
+          <input type="date" name="date_control" />
+        </label>
+
+        <p>
+          Tiempo: <input type="time" name="time_control" />
+        </p>
+
+        <p>
+          Fecha y hora: <input type="datetime" name="datetime_control" />
+        </p>
+
+        <p>
+          Mes: <input type="month" name="month_control" />
+        </p>
+
+        <p>
+          Semana: <input type="week" name="week_control" />
+        </p>
+
+        <p>
+          Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" value="0" />
+        </p>
+
+        <p>
+          Teléfono: <input type="tel" name="tel_control" />
+        </p>
+
+
+        <p>
+          Término de búsqueda: <input type="search" name="search_control" />
+        </p>
+
+        <p>
+          Color favorito: <input type="color" name="color_control" />
+        </p>
+
+        <p>
+          <input id="button1" type="submit" value="Enviar" />
+        </p>
+
+      </fieldset>
+
+    </form>
+  </div>
+
+</body>
+
+</html>

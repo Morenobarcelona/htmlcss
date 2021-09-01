@@ -1,0 +1,66 @@
+/*< @media (min-width: 601px) and (max-width: 1200px) {
+  h1 {
+    text-align: center;
+  }
+
+  #datos, #principal {
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  #datos {
+   width: 30%;
+  }
+
+  #principal {
+    width: 70%;
+  }
+
+  #apartados {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #apartados li {
+    float: left;
+    width: 33%;
+  }
+}
+*/
+
+.clase1 {
+  background-color: aqua;
+}
+
+.clase2 {
+  width: 100%;
+  max-width: 800px;
+  min-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clase3 {
+  border-color: rgb(255, 0, 0);
+}
+
+#camposet {
+  background-color: grey;
+  padding: 1rem;
+}
+
+#camposet:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+#button1 {
+  padding: 0.5em 1em;
+  border: none;
+  background: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
